@@ -1,0 +1,41 @@
+{
+	"com.badlogic.gdx.graphics.g2d.BitmapFont" : {
+    	"font26" : {"file" : "font26.fnt"},
+    	"font32" : {"file" : "font32.fnt"}
+  	},
+  
+  	"com.badlogic.gdx.graphics.Color" : {
+    	"activeColor" : {"r" : 1, "g" : 1, "b" : 1, "a" : 1},
+    	"unactiveColor" : {"r" : 0.408, "g" : 0.408, "b" : 0.408, "a" : 1}
+  	},
+		
+	
+
+	"com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle" : {
+		
+		"arrowRightBtn" : {"up" : "btn_arrow_right"},	
+		"arrowLeftBtn" : {"up" : "btn_arrow_left"},
+    	"homeBtn" : {"up" : "btn_home"},
+    	"exitBtn" : {"up" : "btn_exit"}
+    	
+	},
+	
+	"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle" : {
+	
+    	"boxBtn" : {
+      		"font" : "font26",
+      		"fontColor" : "activeColor",
+      		"up" : "btn_box",
+      		"disabled" : "btn_box_off",
+      		"disabledFontColor" : "unactiveColor"
+    	},
+    	
+    	"levelBtn" : {
+      		"font" : "font32",
+      		"up" : "btn_level",
+      		"disabled" : "btn_level_off",
+      		"disabledFontColor" : "unactiveColor"
+    	}
+    	
+  	}	
+}

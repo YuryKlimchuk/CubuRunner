@@ -1,0 +1,19 @@
+{
+  "com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle" : {
+ 
+    "playBtn" : {
+      "up" : "btn_play_up",
+      "down" : "btn_play_down"
+    },
+    
+	"scoreBtn" : {
+      "up" : "btn_score_up",
+      "down" : "btn_score_down"
+    },
+    
+	"settBtn" : {
+      "up" : "btn_sett_up",
+      "down" : "btn_sett_down"
+    }
+  }
+}
